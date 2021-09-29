@@ -6,12 +6,12 @@
             function checkdata() {
                 var username = document.getElementById("name");
                 var emailid = document.getElementById("email");
-                if (username.value=="") {
+                if (username.value==null || username.value=="") {
                     alert("Please enter the name");
                     username.focus();
                     return false;
                 }
-                if (emailid.value=="") {
+                if (username.value==null || emailid.value=="") {
                     alert("Please enter an email");
                     emailid.focus();
                     return false;
